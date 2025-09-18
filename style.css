@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color: rgb(178, 176, 176)
+}
+
+form{
+    max-width: 500px;
+    background: white;
+    padding: 15px;
+}
+
+label{
+    display: block;
+}

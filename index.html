@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzarendelés Formok</title>
+</head>
+<body>
+    <h3>Pizza rendelő űrlap</h3>
+
+    <form>
+        <label> Név: 
+            <input type="text" name="name" placeholder="Pl. Kalap Jakab" maxlength="20" required>
+        </label>
+        <br>     
+        <label> Telefonszám: 
+            <input type="tel" name="phone" placeholder="+363010050" maxlength="10" required>
+        </label>
+        <br>     
+        <label> E-mail: 
+            <input type="email" name="email" placeholder="Pl. kalap@gmail.com" maxlength="25" required>
+        </label>
+        <br>
+
+        <fieldset>
+        <legend>Pizza mérete:</legend>
+        <label> 
+            <input type="radio" name="size" required> Családi
+        </label>
+        <br>
+        <label> 
+            <input type="radio" name="size" required> Közepes
+        </label>
+        <br>
+        <label> 
+            <input type="radio" name="size" required> Kicsi
+        </label>
+        </fieldset>
+    </form>
+</body>
+</html>
